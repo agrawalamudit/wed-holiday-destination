@@ -1,0 +1,386 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.holidayDes
+{
+    text-align: center;
+    padding-top: 20px;
+    margin: 77px 0px -16px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box1,.box2,.box3,.box4,.box5
+{
+    height: 300px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 62px 7px 0px 7px;
+    border-radius: 18px;
+}
+
+
+/* box1 */
+
+.box1
+{
+    background-image: url("./paris.jpg");
+    /* background-size: contain; */
+    /* background-size: 200px 300px; */
+    /* alternative way to write code in line 36 of background-size */
+   
+    background-size: 100% 100%;  
+
+    background-repeat:no-repeat;
+
+    color: white;
+    text-align:center;
+
+    position: relative;
+}
+
+.box1 h2
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 13px;
+}
+.box1 .info
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+    top:139px;
+
+    transition:top 1s ease-in-out;
+}
+
+.box1 hr
+{
+    margin: 7px 28px;
+}
+
+.box1 .btn
+{
+    height: 21px;
+    width: 78px;
+
+    background-color: rgb(81, 146, 51);
+    margin:8px 59px;
+    padding-top:2px;
+    visibility: hidden;
+
+    transition-delay: 0.7s;
+}
+.box1 .btn a
+{
+    color:white;
+    text-decoration: none;
+}
+
+/* code to blur box on hover */
+.box1:hover .blurBg
+{
+    position: absolute;
+    top:0;left:0;right:0;bottom: 0;
+    height:100%;width:100%;
+    border-radius: 18px;
+    background-color: rgba(139, 139, 139, 0.336);
+    filter:blur(2px);
+}
+
+.box1:hover  .info
+{
+    position: relative;
+    top:100px;
+}
+.box1:hover  .btn
+{
+    visibility: visible;
+}
+
+
+/* box2 */
+
+.box2
+{
+    background-image: url("./jammu.jpg");
+    background-size: 200px 300px;
+    background-repeat:no-repeat;
+    color: white;
+    text-align:center;
+
+    
+    position: relative;
+}
+.box2 h2
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 13px;
+}
+.box2 .info
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+    top:101px;
+    transition:top 1s ease-in-out;
+}
+.box2 hr
+{
+    margin: 7px 28px;
+}
+.box2 .btn
+{
+    height: 21px;
+    width: 78px;
+    background-color: rgb(81, 146, 51);
+    margin:8px 59px;
+    padding-top:2px;
+    visibility: hidden;
+    transition-delay: 0.7s;
+}
+.box2 .btn a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.box2:hover .blurBg
+{
+    position: absolute;
+    top:0;left:0;right:0;bottom: 0;
+    height:100%;width:100%;
+    border-radius: 18px;
+    background-color: rgba(139, 139, 139, 0.336);
+    filter:blur(2px);
+}
+
+.box2:hover  .info
+{
+    position: relative;
+    top:62px;
+}
+.box2:hover  .btn
+{
+    visibility: visible;
+}
+
+
+
+
+
+/* box3 */
+
+.box3
+{
+    background-image: url("./darjeeling.jpg");
+    background-size: 200px 300px;
+    background-repeat:no-repeat;
+    color: white;
+    text-align:center;
+    
+    position: relative; 
+}
+.box3 h2
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 13px;
+}
+.box3 .info
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+    top:139px;
+
+    transition:top 1s ease-in-out;
+}
+.box3 hr
+{
+    margin: 7px 28px;
+}
+
+.box3 .btn
+{
+    height: 21px;
+    width: 78px;
+    background-color: rgb(81, 146, 51);
+    margin:8px 59px;
+    padding-top:2px;
+    visibility: hidden;
+    transition-delay: 0.7s;
+}
+.box3 .btn a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.box3:hover .blurBg
+{
+    position: absolute;
+    top:0;left:0;right:0;bottom: 0;
+    height:100%;width:100%;
+    border-radius: 18px;
+    background-color: rgba(139, 139, 139, 0.336);
+    filter:blur(2px);
+}
+
+.box3:hover  .info
+{
+    position: relative;
+    top:100px;
+}
+.box3:hover  .btn
+{
+    visibility: visible;
+}
+
+
+
+
+/* box4 */
+
+.box4
+{
+    background-image: url("./Himachal.jpg");
+    background-size: 200px 300px;
+    background-repeat:no-repeat;
+    color: white;
+    text-align:center;
+
+    
+    position: relative;
+}
+.box4 h2
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 13px;
+}
+.box4 .info
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+    top:101px;
+    transition:top 1s ease-in-out;
+}
+.box4 hr
+{
+    margin: 7px 28px;
+}
+.box4 .btn
+{
+    height: 21px;
+    width: 78px;
+    background-color: rgb(81, 146, 51);
+    margin:8px 59px;
+    padding-top:2px;
+    visibility: hidden;
+    transition-delay: 0.7s;
+}
+.box4 .btn a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.box4:hover .blurBg
+{
+    position: absolute;
+    top:0;left:0;right:0;bottom: 0;
+    height:100%;width:100%;
+    border-radius: 18px;
+    background-color: rgba(139, 139, 139, 0.336);
+    filter:blur(2px);
+}
+.box4:hover  .info
+{
+    position: relative;
+    top:62px;
+}
+.box4:hover  .btn
+{
+    visibility: visible;
+}
+
+
+
+/* box5 */
+
+
+.box5
+{
+    background-image: url("./jaipur.jpg");
+    background-size: 200px 300px;
+    background-repeat:no-repeat;
+    color: white;
+    text-align:center;
+    
+    
+    position: relative;
+}
+.box5 h2
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 13px;
+}
+.box5 .info
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+    top:139px;
+
+    transition:top 1s ease-in-out;
+}
+.box5 hr
+{
+    margin: 7px 28px;
+}
+
+.box5 .btn
+{
+    height: 21px;
+    width: 78px;
+    background-color: rgb(81, 146, 51);
+    margin:8px 59px;
+    padding-top:2px;
+    visibility: hidden;
+    transition-delay: 0.7s;
+}
+.box5 .btn a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.box5:hover .blurBg
+{
+    position: absolute;
+    top:0;left:0;right:0;bottom: 0;
+    height:100%;width:100%;
+    border-radius: 18px;
+    background-color: rgba(139, 139, 139, 0.336);
+    filter:blur(2px);
+}
+
+.box5:hover  .info
+{
+    position: relative;
+    top:100px;
+}
+.box5:hover  .btn
+{
+    visibility: visible;
+}
